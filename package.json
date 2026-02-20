@@ -1,0 +1,28 @@
+{
+  "name": "solana-roulette-vrf",
+  "version": "1.0.0",
+  "description": "Provably fair roulette casino game with Solana wallet payments",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "build:backend": "npm run build --workspace=backend",
+    "build:frontend": "npm run build --workspace=frontend",
+    "test": "npm run test --workspaces",
+    "install:all": "npm install && npm install --workspace=backend && npm install --workspace=frontend"
+  },
+  "keywords": [
+    "solana",
+    "provably-fair",
+    "roulette",
+    "wallet-adapter",
+    "casino-game",
+    "nodejs-react",
+    "web3-payments"
+  ],
+  "license": "MIT"
+}
